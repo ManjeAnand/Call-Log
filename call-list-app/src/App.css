@@ -1,0 +1,66 @@
+.call-list-app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  margin: 20px;
+}
+
+nav a {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #0056b3;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  width: 220px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px auto;
+  padding: 10px;
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #b52a37;
+}
